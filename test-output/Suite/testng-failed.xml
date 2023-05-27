@@ -6,23 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.tutorialsninja.qa.testcases.Login">
+      <class name="com.tutorialsninja.qa.testcases.LoginTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="verifyLoginWithValidEmailAndInvalidPassword" invocation-numbers="3"/>
           <include name="setup"/>
-          <include name="verifyLoginWithInvalidCredentials"/>
-          <include name="verifyLoginWithValidCredentials"/>
-        </methods>
-      </class> <!-- com.tutorialsninja.qa.testcases.Login -->
-      <class name="com.tutorialsninja.qa.testcases.Register">
-        <methods>
-          <include name="verifyRegisteringAccountByProvidingAllFields"/>
-          <include name="VerifyRegisteringAccountWithExistingEmailAddress"/>
-          <include name="setup"/>
-          <include name="verifyRegisteringAnAccountWithMandatoryFields"/>
+          <include name="verifyLoginWithOnlyValidEmailSkippingPassword" invocation-numbers="3"/>
+          <include name="verifyLoginWithValidCredentials" invocation-numbers="3"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.tutorialsninja.qa.testcases.Register -->
+      </class> <!-- com.tutorialsninja.qa.testcases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

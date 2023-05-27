@@ -25,9 +25,10 @@ public class HomePage {
 		
 		myAccountDropMenu.click();
 	}
-	public void selectLoginOption() {
+	public LoginPage selectLoginOption() {
 		
 		loginOption.click();
+		return new LoginPage(driver);
 	}
 	public void selectRegisterOptin() {
 		

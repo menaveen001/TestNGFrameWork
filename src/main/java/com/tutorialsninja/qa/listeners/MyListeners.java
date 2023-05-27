@@ -4,10 +4,7 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -32,14 +29,14 @@ public class MyListeners implements ITestListener {
 	public void onTestStart(ITestResult result) {
 
 		extentTest = extentReport.createTest(result.getName());
-		extentTest.log(Status.INFO, result.getName() + "started executing");
+		extentTest.log(Status.INFO, result.getName() + " started executing");
 
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 
-		extentTest.log(Status.PASS, result.getName() + "extentText");
+		extentTest.log(Status.PASS, result.getName() + " got passed");
 
 	}
 
@@ -51,7 +48,7 @@ public class MyListeners implements ITestListener {
 			driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver")
 					.get(result.getInstance());
 		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 		String destinationScreenshotPath = Utilities.captureScreenShot(driver, result.getName());
@@ -73,12 +70,12 @@ public class MyListeners implements ITestListener {
 	public void onFinish(ITestContext context) {
 
 		extentReport.flush();
-		String pathOfExtentReport = System.getProperty("user.dir")+"\\test-output\\ExtentReports\\extentReport.html";
+		String pathOfExtentReport = System.getProperty("user.dir") + "\\test-output\\ExtentReports\\extentReport.html";
 		File extentReport = new File(pathOfExtentReport);
 		try {
 			Desktop.getDesktop().browse(extentReport.toURI());
 		} catch (IOException e) {
-			
+
 			e.printStackTrace();
 		}
 	}

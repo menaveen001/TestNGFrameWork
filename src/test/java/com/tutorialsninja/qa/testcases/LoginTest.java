@@ -22,6 +22,8 @@ public class LoginTest extends Base {
 	HomePage homePage;
 	LoginPage loginPage;
 	AccountPage accountPage;
+	String inValidEmailText;
+	String inValidPasswordText;
 
 	@BeforeMethod
 	public void setup() {
@@ -29,17 +31,16 @@ public class LoginTest extends Base {
 		driver = initializeBrowserAndOpenApplication(prop.getProperty("browserName"));
 		homePage = new HomePage(driver);
 		homePage.clickOnMyAccount();
-		homePage.selectLoginOption();
+		loginPage = homePage.selectLoginOption();
 
 	}
 
 	@Test(priority = 1, dataProvider = "vailidTestData")
 	public void verifyLoginWithValidCredentials(String emailText, String passwordText) {
 
-		loginPage = new LoginPage(driver);
 		loginPage.enterEmailAddress(emailText);
 		loginPage.enterPassword(passwordText);
-		AccountPage accountPage = loginPage.clickOnLoginButtonOption();
+		accountPage = loginPage.clickOnLoginButtonOption();
 
 		Assert.assertTrue(accountPage.getDisplayStatusOfEditYourAccountInformationOption(),
 				"Edit Your Account Information option is not displayed");
@@ -47,12 +48,51 @@ public class LoginTest extends Base {
 
 	@Test(priority = 2)
 	public void verifyLoginWithInvalidCredentials() {
-		String emailText = dataProp.getProperty("InVailidEmail");
-		String passwordText = dataProp.getProperty("InVailidPassword");
 
-		loginPage = new LoginPage(driver);
+		inValidEmailText = dataProp.getProperty("InVailidEmail");
+		inValidPasswordText = dataProp.getProperty("InVailidPassword");
+
+		loginPage.enterEmailAddress(inValidEmailText);
+		loginPage.enterPassword(inValidPasswordText);
+		loginPage.clickOnLoginButtonOption();
+
+		String actualWarningMessage = loginPage.retriveEmailPasswordNotMatchingWaringMessageText();
+		String expectedMessage = "Warning: No match for E-Mail Address and/or Password.";
+		Assert.assertTrue(actualWarningMessage.contains(expectedMessage), "Expected Warning message not displayed");
+	}
+
+	@Test(priority = 3, dataProvider = "vailidTestData")
+	public void verifyLoginWithValidEmailAndInvalidPassword(String emailText, String passwordText) {
+
+		inValidPasswordText = dataProp.getProperty("InVailidPassword");
+		
 		loginPage.enterEmailAddress(emailText);
+		loginPage.enterPassword(inValidPasswordText);
+		loginPage.clickOnLoginButtonOption();
+
+		String actualWarningMessage = loginPage.retriveEmailPasswordNotMatchingWaringMessageText();
+		String expectedMessage = "Warning: No match for E-Mail Address and/or Password.";
+		Assert.assertTrue(actualWarningMessage.contains(expectedMessage), "Expected Warning message not displayed");
+	}
+
+	@Test(priority = 4, dataProvider = "vailidTestData")
+	public void verifyLoginWithInvalidEmailAndValidPassword(String emailText, String passwordText) {
+
+		inValidEmailText = dataProp.getProperty("InVailidEmail");
+		loginPage.enterEmailAddress(inValidEmailText);
 		loginPage.enterPassword(passwordText);
+		loginPage.clickOnLoginButtonOption();
+
+		String actualWarningMessage = loginPage.retriveEmailPasswordNotMatchingWaringMessageText();
+		String expectedMessage = "Warning: No match for E-Mail Address and/or Password.";
+		Assert.assertTrue(actualWarningMessage.contains(expectedMessage), "Expected Warning message not displayed");
+	}
+
+	@Test(priority = 5, dataProvider = "vailidTestData")
+	public void verifyLoginWithOnlyValidEmailSkippingPassword(String emailText, String passwordText) throws InterruptedException {
+
+		loginPage.enterEmailAddress(emailText);
+		Thread.sleep(2000);
 		loginPage.clickOnLoginButtonOption();
 
 		String actualWarningMessage = loginPage.retriveEmailPasswordNotMatchingWaringMessageText();
