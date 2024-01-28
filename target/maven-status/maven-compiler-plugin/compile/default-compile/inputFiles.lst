@@ -1,8 +1,8 @@
-D:\FrameWorks\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\utils\Utilities.java
-D:\FrameWorks\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\AccountSuccessPage.java
-D:\FrameWorks\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\HomePage.java
-D:\FrameWorks\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\listeners\MyListeners.java
-D:\FrameWorks\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\AccountPage.java
-D:\FrameWorks\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\utils\ExtentReporter.java
-D:\FrameWorks\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\LoginPage.java
-D:\FrameWorks\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\RegisterPage.java
+D:\TestingProject\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\utils\ExtentReporter.java
+D:\TestingProject\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\listeners\MyListeners.java
+D:\TestingProject\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\LoginPage.java
+D:\TestingProject\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\AccountPage.java
+D:\TestingProject\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\utils\Utilities.java
+D:\TestingProject\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\AccountSuccessPage.java
+D:\TestingProject\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\HomePage.java
+D:\TestingProject\TestNGFrameWork\src\main\java\com\tutorialsninja\qa\pages\RegisterPage.java

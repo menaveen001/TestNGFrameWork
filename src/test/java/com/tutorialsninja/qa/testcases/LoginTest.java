@@ -107,6 +107,7 @@ public class LoginTest extends Base {
 	}
 
 	@AfterMethod
+	// For closing the browser
 	public void tearDown() {
 		driver.quit();
 
