@@ -25,6 +25,7 @@ public class RegisterTest extends Base {
 	}
 
 	@BeforeMethod
+	//for lunching the browser
 	public void setup() {
 		driver = initializeBrowserAndOpenApplication(prop.getProperty("browserName"));
 		homePage = new HomePage(driver);
@@ -102,6 +103,7 @@ public class RegisterTest extends Base {
 	}
 
 	@AfterMethod
+	// for closing the browser
 	public void tearDown() {
 		driver.quit();
 	}

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T21:08:21 IST" name="Default suite" finished-at="2024-01-27T21:08:58 IST" duration-ms="37149">
+  <suite started-at="2024-01-30T21:12:42 IST" name="Default suite" finished-at="2024-01-30T21:14:37 IST" duration-ms="115190">
     <groups>
     </groups>
-    <test started-at="2024-01-27T21:08:21 IST" name="Default test" finished-at="2024-01-27T21:08:58 IST" duration-ms="37149">
+    <test started-at="2024-01-30T21:12:42 IST" name="Default test" finished-at="2024-01-30T21:14:37 IST" duration-ms="115190">
       <class name="com.tutorialsninja.qa.testcases.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:22 IST" name="setup" finished-at="2024-01-27T21:08:31 IST" duration-ms="8710" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:12:43 IST" name="setup" finished-at="2024-01-30T21:13:08 IST" duration-ms="24577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:31 IST" name="verifyRegisteringAnAccountWithMandatoryFields" data-provider="registerAccountData" finished-at="2024-01-27T21:08:32 IST" duration-ms="892" status="PASS">
+        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:08 IST" name="verifyRegisteringAnAccountWithMandatoryFields" data-provider="registerAccountData" finished-at="2024-01-30T21:13:09 IST" duration-ms="1452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,15 +42,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisteringAnAccountWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:32 IST" name="tearDown" finished-at="2024-01-27T21:08:32 IST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:09 IST" name="tearDown" finished-at="2024-01-30T21:13:10 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:32 IST" name="setup" finished-at="2024-01-27T21:08:39 IST" duration-ms="7727" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:10 IST" name="setup" finished-at="2024-01-30T21:13:31 IST" duration-ms="20743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:39 IST" name="verifyRegisteringAnAccountWithMandatoryFields" data-provider="registerAccountData" finished-at="2024-01-27T21:08:40 IST" duration-ms="901" status="PASS">
+        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:31 IST" name="verifyRegisteringAnAccountWithMandatoryFields" data-provider="registerAccountData" finished-at="2024-01-30T21:13:32 IST" duration-ms="1770" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,15 +81,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisteringAnAccountWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:40 IST" name="tearDown" finished-at="2024-01-27T21:08:40 IST" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:32 IST" name="tearDown" finished-at="2024-01-30T21:13:33 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:40 IST" name="setup" finished-at="2024-01-27T21:08:44 IST" duration-ms="3267" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:33 IST" name="setup" finished-at="2024-01-30T21:13:38 IST" duration-ms="5291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAccountByProvidingAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:44 IST" name="verifyRegisteringAccountByProvidingAllFields" data-provider="registerAccountData" finished-at="2024-01-27T21:08:45 IST" duration-ms="869" status="PASS">
+        <test-method signature="verifyRegisteringAccountByProvidingAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:38 IST" name="verifyRegisteringAccountByProvidingAllFields" data-provider="registerAccountData" finished-at="2024-01-30T21:13:39 IST" duration-ms="1396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,15 +120,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisteringAccountByProvidingAllFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:45 IST" name="tearDown" finished-at="2024-01-27T21:08:45 IST" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:39 IST" name="tearDown" finished-at="2024-01-30T21:13:40 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:45 IST" name="setup" finished-at="2024-01-27T21:08:48 IST" duration-ms="3809" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:40 IST" name="setup" finished-at="2024-01-30T21:13:45 IST" duration-ms="5112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAccountByProvidingAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:48 IST" name="verifyRegisteringAccountByProvidingAllFields" data-provider="registerAccountData" finished-at="2024-01-27T21:08:50 IST" duration-ms="1028" status="PASS">
+        <test-method signature="verifyRegisteringAccountByProvidingAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:45 IST" name="verifyRegisteringAccountByProvidingAllFields" data-provider="registerAccountData" finished-at="2024-01-30T21:13:46 IST" duration-ms="1390" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,15 +159,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisteringAccountByProvidingAllFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:50 IST" name="tearDown" finished-at="2024-01-27T21:08:50 IST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:46 IST" name="tearDown" finished-at="2024-01-30T21:13:46 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:50 IST" name="setup" finished-at="2024-01-27T21:08:54 IST" duration-ms="3884" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:13:46 IST" name="setup" finished-at="2024-01-30T21:14:14 IST" duration-ms="27410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyRegisteringAccountWithExistingEmailAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:54 IST" name="VerifyRegisteringAccountWithExistingEmailAddress" data-provider="registerAccountData" finished-at="2024-01-27T21:08:54 IST" duration-ms="647" status="PASS">
+        <test-method signature="VerifyRegisteringAccountWithExistingEmailAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:14:14 IST" name="VerifyRegisteringAccountWithExistingEmailAddress" data-provider="registerAccountData" finished-at="2024-01-30T21:14:15 IST" duration-ms="1484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,15 +198,85 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRegisteringAccountWithExistingEmailAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:54 IST" name="tearDown" finished-at="2024-01-27T21:08:54 IST" duration-ms="67" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:14:15 IST" name="tearDown" finished-at="2024-01-30T21:14:15 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:54 IST" name="setup" finished-at="2024-01-27T21:08:58 IST" duration-ms="3306" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:14:15 IST" name="setup" finished-at="2024-01-30T21:14:37 IST" duration-ms="21517" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 19.370
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e2cb4557d3db213d06fcddefc19e9a2, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\menav\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59415/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e2cb4557d3db213d06fcddefc19e9a2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.370
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e2cb4557d3db213d06fcddefc19e9a2, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\menav\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59415/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e2cb4557d3db213d06fcddefc19e9a2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at com.tutorialsninja.qa.base.Base.initializeBrowserAndOpenApplication(Base.java:62)
+at com.tutorialsninja.qa.testcases.RegisterTest.setup(RegisterTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyRegisteringAccountWithExistingEmailAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:58 IST" name="VerifyRegisteringAccountWithExistingEmailAddress" data-provider="registerAccountData" finished-at="2024-01-27T21:08:58 IST" duration-ms="670" status="PASS">
+        <test-method signature="VerifyRegisteringAccountWithExistingEmailAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:14:37 IST" name="VerifyRegisteringAccountWithExistingEmailAddress" data-provider="registerAccountData" finished-at="2024-01-30T21:14:37 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -234,10 +304,80 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 19.370
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e2cb4557d3db213d06fcddefc19e9a2, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\menav\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59415/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e2cb4557d3db213d06fcddefc19e9a2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.370
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e2cb4557d3db213d06fcddefc19e9a2, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\menav\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59415/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e2cb4557d3db213d06fcddefc19e9a2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at com.tutorialsninja.qa.base.Base.initializeBrowserAndOpenApplication(Base.java:62)
+at com.tutorialsninja.qa.testcases.RegisterTest.setup(RegisterTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRegisteringAccountWithExistingEmailAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4116aac9]" started-at="2024-01-27T21:08:58 IST" name="tearDown" finished-at="2024-01-27T21:08:58 IST" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@179ece50]" started-at="2024-01-30T21:14:37 IST" name="tearDown" finished-at="2024-01-30T21:14:37 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
