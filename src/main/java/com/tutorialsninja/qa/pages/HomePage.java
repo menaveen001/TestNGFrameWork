@@ -20,6 +20,9 @@ public class HomePage {
 	@FindBy(linkText = "Register")
 	private WebElement registerOption;
 	
+    @FindBy(linkText = "Logout")
+    private WebElement logoutOption;
+	
 	//Actions
 	public void clickOnMyAccount() {
 		
@@ -35,4 +38,7 @@ public class HomePage {
 		registerOption.click();
 	}
 	
+	public void selectLogOutOption() {
+		logoutOption.click();
+	}
 }

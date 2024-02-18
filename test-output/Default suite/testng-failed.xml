@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tutorialsninja.qa.testcases.RegisterTest">
+      <class name="com.tutorialsninja.qa.testcases.LogoutTest">
         <methods>
           <include name="setup"/>
-          <include name="VerifyRegisteringAccountWithExistingEmailAddress"/>
-          <include name="tearDown"/>
+          <include name="VerifyLoggingoutbyselectingLogoutoptionfromMyAccountdropmenu" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.tutorialsninja.qa.testcases.RegisterTest -->
+      </class> <!-- com.tutorialsninja.qa.testcases.LogoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
